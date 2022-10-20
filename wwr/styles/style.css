@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
 
 #content {
@@ -5,76 +6,139 @@
     margin: 0 auto;
 }
 
-
-
-nav a {
-    color: black;
-    text-decoration: none;
-}
-
-h1, h2,  h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
 #background {
     height: 725px;
     background-color: #f9b062;
-}
-
-body{
-    background-color: #90b6ac;
-}
-
-header {
-    background-color: #f9b062;
-}
-
-nav a:hover {
-    background-color: white;
-}
-
-.book, .join{
-    background-color: gray;
-    text-decoration: none;
-    
-}
-
-
-.msg {
-    background-color: #f9b062;
-}
-
-footer {
-
-    background-color: gray;
-}
-
-.logo{
-    width: 80px;
-}
-
-.icon {
-    width: 80px;
 }
 
 #hero-img {
     width: 100%;
 }
 
+
+body{
+    background-color: #90b6ac;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-title {
+    font-family:  "Pacifico";
+    font-size: 2em;
+    margin-top: 10px;
+    border: solid 3px blue;
+}
+
+.msg h2 {
+    font-family:  "Pacifico";
+    font-size: 2em;
+}
+header {
+    background-color: #f9b062;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+h1, h2,  h4 {
+    text-align: center;
+}
+
+
+main section {
+    text-align: center;
+}
+
+
+footer {
+
+    background-color: gray;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
 footer a {
     text-decoration: none;
 }
-
  
 footer p {
     font-size: 1.2em;
 }    
-       
+
+
+footer .social img   {
+    padding-top: 15px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img{
+    border: solid 8px #f9b062;
+    border-radius: 5px;
+
+}
+
+.book, .join{
+    background-color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.msg {
+    background-color: #f9b062;
+    padding: 35px;
+    
+}
+
+.msg p {
+    font-size: .8em;
+    
+    padding-bottom: 15px;
+}
+
+.logo{
+    width: 80px;
+   
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.button-box {
+    text-align: center;
+}
+
+
+#logo_link {
+    padding-top: 5px
+}
+
+.rivers-card, .camping-card, .rapids-card, .mountains  {
+     margin: 200px 0;
+
+}
+
+
+
