@@ -17,8 +17,6 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
-    
-
 }
 
 #hero-box {
@@ -48,6 +46,7 @@
     justify-self: center;
     align-self: center;
 }
+
 
 header {
     background-color: #f9b062;
