@@ -133,6 +133,8 @@ footer {
         align-items: center;
         justify-content: space-around;
         align-items: center;
+        bottom: 0;
+        width: 100%;
 }
 
 footer a {
@@ -206,9 +208,47 @@ footer p {
 
 
 
+/*Customized page*/
 
 
+.main-grid {
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.right-banner {
+    grid-column: -1;
+    width: 350px;
+}
+
+.share-design-txt {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+}
+
+
+.design-conversation-txt {
+    grid-area: 1/4;
+    align-self: center;
+}
+
+.customized-a {
+    font-family:"Satisfy";
+    text-decoration:underline;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+
+.customized-p {
+    font-family: Inconsolata, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -222,3 +262,15 @@ footer p {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+
+
+
+
+
+
+
+
+
+
+
